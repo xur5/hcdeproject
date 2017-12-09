@@ -1,0 +1,24 @@
+q_trackThe song title
+q_artistThe song artist
+q_lyricsAny word in the lyrics
+q_track_artistAny word in the song title or artist name
+qAny word in the song title or artist name or lyrics
+f_artist_idWhen set, filter by this artist id
+f_music_genre_idWhen set, filter by this music category id
+f_lyrics_languageFilter by the lyrics language (en,it,..)
+f_has_lyricsWhen set, filter only contents with lyrics
+f_track_release_group_first_release_date_minWhen set, filter the tracks with release date newer than value, format is YYYYMMDD
+f_track_release_group_first_release_date_maxWhen set, filter the tracks with release date older than value, format is YYYYMMDD
+s_artist_ratingSort by our popularity index for artists (asc|desc)
+s_track_ratingSort by our popularity index for tracks (asc|desc)
+quorum_factorSearch only a part of the given query string.Allowed range is (0.1 – 0.9)
+pageDefine the page number for paginated results
+page_size
+
+q_trackThe song title
+q_artistThe song artist
+q_lyrics
+
+
+q_trackThe song title
+q_artistThe song artist
