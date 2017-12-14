@@ -1,9 +1,27 @@
+
+
+<!HTML DOCTYPE>
 <html>
 <head>
-	<title>Lyrics Search results for {{title}} by {{artist}}</title>
+<title>Song Summarizer</title>
 </head>
 <body>
-	<h1>Results </h1>
-	{{text}}
+<h1>~~~Song Summarizer~~~(^_^)</h1>
+<h2>This application summarizes the lyrics of a song within a given number of lines!</h2>
+<p>It picks out the most representative lines from the song!</p>
+
+<p>Note: Please enter full song name and artist name.<p>
+<br>
+<h2>Enter a song, the artist, and the maximum number of lines you want to see below!</h2>
+<form action="gresponse" method="post">
+	<label for="title">Please enter a song:</label><br>
+	<input type="text" id="title" name="title"/>
+	<br><label for="artist">Please enter the artist:</label><br>
+	<input type="text" id="artist" name="artist"/>
+	<br><label for="artist">Please enter the max number of lines:</label><br>
+	<input type="text" id="num" name="num"/>
+	<input type="submit" value="Go" name"gobtn"/></form>
+<p>p.s. This application uses Musixmatch API and Aylien Text Analysis API. </p>
+
 </body>
 </html>

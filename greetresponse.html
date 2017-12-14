@@ -1,40 +1,24 @@
 
+
+<!HTML DOCTYPE>
 <html>
 <head>
-	<title>Flickr Search results for northcascades</title>
+<title>search result</title>
 </head>
 <body>
-	<h1>Results for northcascades</h1>
-	
-	<div>By views:<br />
-	
-		<img src="https://farm5.staticflickr.com/4482/26453191509_e51f23ed45_q.jpg" alt="Hillsides and Mountain Peaks Above Lucerne Campground" width="150" height="150" href="https://www.flickr.com/photos/14723335@N05/26453191509/"/> 
-	
-		<img src="https://farm5.staticflickr.com/4569/38205968262_96e2d0da3d_q.jpg" alt="Liberty Bell and the Early Winter spires, North Cascades National Park" width="150" height="150" href="https://www.flickr.com/photos/99379973@N04/38205968262/"/> 
-	
-		<img src="https://farm5.staticflickr.com/4558/38213216511_4b3b56a1cb_q.jpg" alt="Mount Shuksan from the Skyline Divide Trail" width="150" height="150" href="https://www.flickr.com/photos/northwesternimages/38213216511/"/> 
-	
-	</div>
-	
-	<div>By tags:<br />
-	
-		<img src="https://farm5.staticflickr.com/4576/38275516721_48f2500f2c_q.jpg" alt="My Travels - North Cascade Lake Chelan National Recreation Area" width="150" height="150" href="https://www.flickr.com/photos/14723335@N05/38275516721/"/> 
-	
-		<img src="https://farm5.staticflickr.com/4482/26453191509_e51f23ed45_q.jpg" alt="Hillsides and Mountain Peaks Above Lucerne Campground" width="150" height="150" href="https://www.flickr.com/photos/14723335@N05/26453191509/"/> 
-	
-		<img src="https://farm5.staticflickr.com/4569/38205968262_96e2d0da3d_q.jpg" alt="Liberty Bell and the Early Winter spires, North Cascades National Park" width="150" height="150" href="https://www.flickr.com/photos/99379973@N04/38205968262/"/> 
-	
-	</div>
-	
-	<div>By comments:<br />
-	
-		<img src="https://farm5.staticflickr.com/4482/26453191509_e51f23ed45_q.jpg" alt="Hillsides and Mountain Peaks Above Lucerne Campground" width="150" height="150" href="https://www.flickr.com/photos/14723335@N05/26453191509/"/> 
-	
-		<img src="https://farm5.staticflickr.com/4569/38205968262_96e2d0da3d_q.jpg" alt="Liberty Bell and the Early Winter spires, North Cascades National Park" width="150" height="150" href="https://www.flickr.com/photos/99379973@N04/38205968262/"/> 
-	
-		<img src="https://farm5.staticflickr.com/4564/37491685564_35b33fde9a_q.jpg" alt="Newhalem burned mountainside" width="150" height="150" href="https://www.flickr.com/photos/33871468@N07/37491685564/"/> 
-	
-	</div>
-	
+<h1>Yas, we got something!~~~(^-^)</h1>
+<h2>Song: {{title}}</h2>
+<h2>Artist: {{artist}}</h2>
+<br>
+
+<div>
+    <h3>Lyrics summarized in {{num}} lines</h3>
+	{%for line in lyrics %}
+	<br><td>"{{line}}"</td><br>
+
+	{% endfor %}
+
+
+</div>
 </body>
 </html>
